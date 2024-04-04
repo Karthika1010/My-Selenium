@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="Browser" value="Chrome" ></parameter>
+	  <parameter name="Url" value=" https://qalegend.com/billing/public/products" ></parameter>
+   <listeners>
+        <listener class-name="testNgUtility.RetryListener"/>
+  </listeners>
+    <classes>
+      <class name="testcases.Login"/>
+       <class name="testcases.Brand"/>
+	    <class name="testcases.Category"/>
+	     <class name="testcases.Unit"/>
+	      <class name="testcases.AddProducts"/>
+     
+	    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

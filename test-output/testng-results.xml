@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="18" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T11:18:27 NPT" name="Suite" finished-at="2024-04-04T11:21:14 NPT" duration-ms="167156">
+    <groups>
+      <group name="functional">
+        <method signature="AddProducts.addProduct()[pri:10, instance:testcases.AddProducts@564fabc8]" name="addProduct" class="testcases.AddProducts"/>
+        <method signature="Brand.brandadd()[pri:4, instance:testcases.Brand@3a93b025]" name="brandadd" class="testcases.Brand"/>
+        <method signature="Brand.brandsearch()[pri:5, instance:testcases.Brand@3a93b025]" name="brandsearch" class="testcases.Brand"/>
+        <method signature="Category.categoryadd()[pri:6, instance:testcases.Category@35cabb2a]" name="categoryadd" class="testcases.Category"/>
+        <method signature="Category.categorysearch()[pri:7, instance:testcases.Category@35cabb2a]" name="categorysearch" class="testcases.Category"/>
+        <method signature="Login.Invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:testcases.Login@16293aa2]" name="Invalidlogin" class="testcases.Login"/>
+        <method signature="Login.Login()[pri:2, instance:testcases.Login@16293aa2]" name="Login" class="testcases.Login"/>
+        <method signature="Login.alerttour()[pri:3, instance:testcases.Login@16293aa2]" name="alerttour" class="testcases.Login"/>
+        <method signature="Unit.unitadd()[pri:8, instance:testcases.Unit@36bc55de]" name="unitadd" class="testcases.Unit"/>
+        <method signature="Unit.unitsearch()[pri:9, instance:testcases.Unit@36bc55de]" name="unitsearch" class="testcases.Unit"/>
+      </group> <!-- functional -->
+    </groups>
+    <test started-at="2024-04-04T11:18:27 NPT" name="Test" finished-at="2024-04-04T11:21:14 NPT" duration-ms="167156">
+      <class name="testcases.Category">
+        <test-method signature="categoryadd()[pri:6, instance:testcases.Category@35cabb2a]" started-at="2024-04-04T11:19:19 NPT" name="categoryadd" description="Verify user is able to save category" finished-at="2024-04-04T11:19:50 NPT" duration-ms="31555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryadd -->
+        <test-method signature="categorysearch()[pri:7, instance:testcases.Category@35cabb2a]" started-at="2024-04-04T11:19:50 NPT" name="categorysearch" description="Verify user is able to search with category name" finished-at="2024-04-04T11:19:57 NPT" duration-ms="6423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorysearch -->
+      </class> <!-- testcases.Category -->
+      <class name="testcases.Login">
+        <test-method is-config="true" signature="extendreportgenerate()[pri:0, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:18:27 NPT" name="extendreportgenerate" finished-at="2024-04-04T11:18:27 NPT" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendreportgenerate -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:18:27 NPT" name="beforeTest" finished-at="2024-04-04T11:18:39 NPT" duration-ms="11654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ https://qalegend.com/billing/public/products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:18:39 NPT" name="Invalidlogin" data-provider="data-provider" finished-at="2024-04-04T11:18:41 NPT" duration-ms="2363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method signature="Login()[pri:2, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:18:41 NPT" name="Login" description="Verify whether user is able to login with valid username and valid password" finished-at="2024-04-04T11:18:49 NPT" duration-ms="8133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="alerttour()[pri:3, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:18:49 NPT" name="alerttour" finished-at="2024-04-04T11:18:49 NPT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerttour -->
+        <test-method is-config="true" signature="closereport()[pri:0, instance:testcases.Login@16293aa2]" started-at="2024-04-04T11:21:14 NPT" name="closereport" finished-at="2024-04-04T11:21:15 NPT" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereport -->
+      </class> <!-- testcases.Login -->
+      <class name="testcases.AddProducts">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testcases.AddProducts@564fabc8]" started-at="2024-04-04T11:18:27 NPT" name="beforeTest" finished-at="2024-04-04T11:18:27 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="addProduct()[pri:10, instance:testcases.AddProducts@564fabc8]" started-at="2024-04-04T11:20:35 NPT" name="addProduct" description="user is able to add products" finished-at="2024-04-04T11:21:14 NPT" duration-ms="39339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.AddProducts@564fabc8]" started-at="2024-04-04T11:21:14 NPT" name="afterTest" finished-at="2024-04-04T11:21:14 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.AddProducts -->
+      <class name="testcases.Brand">
+        <test-method signature="brandadd()[pri:4, instance:testcases.Brand@3a93b025]" started-at="2024-04-04T11:18:49 NPT" name="brandadd" finished-at="2024-04-04T11:19:12 NPT" duration-ms="22827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandadd -->
+        <test-method signature="brandsearch()[pri:5, instance:testcases.Brand@3a93b025]" started-at="2024-04-04T11:19:12 NPT" name="brandsearch" description="Verify whether user is able to search with brand name" finished-at="2024-04-04T11:19:19 NPT" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandsearch -->
+      </class> <!-- testcases.Brand -->
+      <class name="testcases.Unit">
+        <test-method signature="unitadd()[pri:8, instance:testcases.Unit@36bc55de]" started-at="2024-04-04T11:19:57 NPT" name="unitadd" description="user is able to add unit" finished-at="2024-04-04T11:20:28 NPT" duration-ms="31726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitadd -->
+        <test-method signature="unitsearch()[pri:9, instance:testcases.Unit@36bc55de]" started-at="2024-04-04T11:20:28 NPT" name="unitsearch" description="user is able to search with unitname" finished-at="2024-04-04T11:20:35 NPT" duration-ms="6395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitsearch -->
+      </class> <!-- testcases.Unit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
